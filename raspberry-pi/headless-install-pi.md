@@ -31,7 +31,7 @@ psk="your_wifi_password"
 - burn image to sd
 - start pi from sd
 
-| Command | Description |
+|  | Default value |
 | --- | --- |
 | host | raspberrypi
 | user | pi@<ipaddress> or pi@raspberrypi |
