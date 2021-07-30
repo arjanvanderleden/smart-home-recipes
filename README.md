@@ -7,3 +7,6 @@ For each MacOS / zsh specific command there will be an equivalent for other OS. 
 
 ## Contents
 
+| raspberry pi |
+| --- |
+| [headless install](raspberry-pi/headless-install-pi.md) |
