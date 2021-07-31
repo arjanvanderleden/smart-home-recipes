@@ -11,12 +11,12 @@ sudo hdiutil mount <your-image-file>.img
 
 a ssh file in the root will enable ssh
 
-- Add ssh file (touch ssh) in root of mounted device
+- Add ssh file in root of mounted device
 ```
 cd /Volumes/boot
 touch ssh
 ```
-- Add wpa_supplicant.conf file
+- Add wpa_supplicant.conf file:
 ```
 country=US
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
@@ -37,8 +37,9 @@ psk="your_wifi_password"
 | user | pi@< ipaddress > or pi@raspberrypi |
 | pw | raspberry |
 
-- change host and password:
+- change **host** and **password**:
 ```
+ssh pi@raspberrypi
 sudo raspi-config
 ```
 
