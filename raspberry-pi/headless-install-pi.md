@@ -52,19 +52,19 @@ Access the pi with a ssh key:
 cd ~/.ssh
 ssh-keygen
 ```
-- Enter < filename > of keyfile
+- Enter <filename> of keyfile
 ```
-ssh-copy-id -i < filename > user@host
+ssh-copy-id -i <filename> user@host
 ```
 - Test:
 ```
-ssh -i < filename > user@host
+ssh -i <filename> user@host
 ```
 - Add passphrase to keychain:
 ```
-ssh-add -K < filename >
+ssh-add -K <filename>
 ```
 - Login
 ```
-ssh -i < filename > pi@< host >
+ssh -i <filename> pi@< host >
 ```
